@@ -30,7 +30,7 @@ For each test case, print a single integer — the minimum value of the paramete
 cause at least h damage to the dragon.
 
 Example
-inputCopy
+input
 4
 2 5
 1 5
@@ -40,7 +40,7 @@ inputCopy
 1 2 4 5 7
 4 1000
 3 25 64 1337
-outputCopy
+output
 3
 4
 1
@@ -51,4 +51,64 @@ In the first example, for k=3, damage is dealt in seconds [1,2,3,5,6,7].
 In the second example, for k=4, damage is dealt in seconds [2,3,4,5,6,7,10,11,12,13].
 
 In the third example, for k=1, damage is dealt in seconds [1,2,4,5,7].
+
+
+
+
+
+
+
+
+
+16
+7 1470
+69 106 416 569 676 749 886
+3 1363
+356 432 933
+1 294
+77
+5 1432
+352 485 643 750 830
+9 1004
+18 93 148 266 505 721 724 849 982
+1 14
+734
+4 490
+310 815 830 946
+10 1197
+16 106 123 176 217 235 523 593 691 702
+2 559
+404 545
+2 612
+346 368
+2 785
+104 468
+3 1504
+184 635 828
+9 890
+326 336 439 532 638 712 823 877 958
+10 1376
+112 176 300 360 516 786 830 895 904 997
+9 1197
+119 185 208 222 238 302 505 589 617
+8 1375
+79 176 258 457 500 568 778 970
+
+653
+786
+294
+954
+165
+14
+180
+511
+418
+590
+421
+860
+258
+491
+699
+484
+
 
