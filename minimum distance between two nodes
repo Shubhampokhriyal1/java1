@@ -1,0 +1,83 @@
+given N nodes and E edge of a undirectedgraph 
+answer the Q query . where in each query find the minimum distance between a ,b . where a,b are nodes of a undirectedgraph
+
+Input
+The first line of each test contains a three integer N (1≤N≤100) — the number Nodes of the undirectedgraph ,  E (N-1 <= E <= N*(N-1)/2 ) - edges of the undirectedgraph and Q ( 1<=Q<=1000) -number of query
+
+the Next E numbers of lines contains  two space seprated integer a (1<=a<=N) and b (1<=b<=N) the connected edges of undirectedgraph
+
+followed by Q lines containes the two space seprated integer a (1<=a<=N) and b (1<=b<=N) query
+
+OUTPUT 
+output consist of Q lines where ith line answerse ith query
+
+
+INPUT
+4 5 3
+1 2 
+3 4
+1 3
+1 4
+2 3
+2 4
+1 3
+2 3
+
+OUTPUT
+2
+1
+1
+
+
+
+
+
+
+
+
+
+
+Hidden Input 
+
+7 7 3
+1 3
+1 2
+2 4
+3 4
+4 7
+4 6
+4 5
+4 7
+4 1
+4 2
+
+OUTPUT
+1
+2
+1
+
+
+
+Hidden INPUT
+11 12 3
+1 3
+3 8
+1 2
+2 4
+3 4
+4 7
+4 6
+4 5
+5 8
+8 10
+8 9
+10 11
+4 11
+4 9
+4 8
+
+OUTPUT
+4
+3
+2
+
